@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Servicio De Salud Bío-Bío</string>
+    <string name="horariovisita">Horario De Visita</string>
+    <string name="consultahoramedica">Consulta Hora Médica</string>
+    <string name="consultaestadopaciente">Consulta Estado Del Paciente</string>
+    <string name="saludresponde">Salud Responde</string>
+    <string name="carteraservicio">Cartera De Servicio</string>
+    <string name="farmaciaturno">Farmacia De Turno</string>
+    <string name="donasangre">Dona Sangre</string>
+    <string name="calidadaire">Calidad Del Aire</string>
+    <string name="atencionabierta">Atención Abierta</string>
+    <string name="atencionurgencia">Atención Urgencia</string>
+    <string name="atencioncerrada">Atención Cerrada</string>
+    <string name="apoyoclinico">Apoyo Clínico </string>
+    <string name="sharedPreID">shared.app.preferences</string>
+    <string name="campoobligatorio">CAMPO OBLIGATORIO</string>
+    <string name="mapaHospital">Mapa Hospitales</string>
+    <string name="title_activity_menubkn">Servicio De Salud Bío-Bío</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_lista_hrs">ListaHrs</string>
+</resources>

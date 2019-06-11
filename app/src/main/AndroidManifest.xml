@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="cl.ubiobio.hospitallinares">
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="S.Salud BioBio"
+        android:name="android.support.multidex.MultiDexApplication"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/sinbar"> /llamando al estilo sinbar
+        <activity android:name=".Inicio">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".apoyoclinico"
+            android:label="@string/apoyoclinico"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".mapaHospital"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".consultahora"
+            android:label="@string/consultahoramedica"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".Horariovisita"
+            android:label="@string/horariovisita"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".menubkn"
+            android:label="@string/title_activity_menubkn"
+            android:theme="@style/sinbar" />
+        <activity
+            android:name=".saludresponde"
+            android:label="@string/saludresponde"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".consultapaciente"
+            android:label="@string/consultaestadopaciente"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".carteradeservicios"
+            android:label="@string/carteraservicio"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".mainfarmacias"
+            android:label="@string/farmaciaturno"
+            android:theme="@style/conbar" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+        <activity
+            android:name=".atencionurgencia"
+            android:label="@string/atencionurgencia"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".atencionabierta"
+            android:label="@string/atencionabierta"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".atencioncerrada"
+            android:label="@string/atencioncerrada"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".donasangre"
+            android:label="@string/donasangre"
+            android:theme="@style/conbar" />
+        <activity
+            android:name=".Menu"
+            android:label="@string/app_name"
+            android:theme="@style/conbar" />
+
+        <activity
+            android:name=".ListaHrs"
+            android:label="@string/title_activity_lista_hrs"
+            android:theme="@style/sinbar"></activity>
+    </application>
+</manifest>

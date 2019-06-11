@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#000000</color>
+    <color name="colorPrimaryDark">#101010</color>
+    <color name="colorAccent">#1e1e1e</color>
+    <color name="blanco">#ffffff</color>
+    <color name="azul">#0019fd</color>
+    <color name="rojo">#e10909</color>
+    <color name="plomo">#979494</color>
+    <color name="verde">#0bef07</color>
+    <color name="celeste">#d52767a6</color>
+    <color name="verdeandroid">#14d991</color>
+    <color name="naranjo">#ff7b00</color>
+</resources>

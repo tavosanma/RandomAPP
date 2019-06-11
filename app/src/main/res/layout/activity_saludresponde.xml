@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".saludresponde">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <ImageButton
+        android:background="@color/blanco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/salud_responde" />
+
+    <TextView
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        android:textColor="@color/azul"
+        android:text="Solicita una llamada del servicio SALUD RESPONDE ingresando tus datos."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="RUT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:textSize="20sp"
+            android:textColorHint="@color/plomo"
+            android:id="@+id/rut"
+            android:hint="12345678-9"
+            android:layout_width="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/azul"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:drawableRight="@mipmap/carta"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="NOMBRE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:textSize="20sp"
+            android:textColorHint="@color/plomo"
+            android:id="@+id/nombre"
+            android:hint="JUANITO PEREZ"
+            android:layout_width="wrap_content"
+            android:inputType="text"
+            android:textColor="@color/azul"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:drawableRight="@mipmap/nombre"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="TIPO TElÉFONO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+
+            android:id="@+id/spiner1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="CODIGO TElÉFONO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+
+            android:id="@+id/spiner2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </Spinner>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20sp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="TElÉFONO"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+
+            android:textSize="20sp"
+            android:textColorHint="@color/plomo"
+            android:id="@+id/telefono"
+            android:hint="992314567"
+            android:layout_width="wrap_content"
+            android:inputType="phone"
+            android:textColor="@color/azul"
+            android:layout_height="wrap_content" />
+
+        <TextView
+
+            android:drawableRight="@mipmap/telefono"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/azul"
+            android:text="EMAIL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <EditText
+
+            android:textSize="20sp"
+            android:textColorHint="@color/plomo"
+            android:id="@+id/email"
+            android:hint="correo.com/cl"
+            android:layout_width="wrap_content"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/azul"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:drawableRight="@mipmap/email"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/botonsalud"
+        android:textSize="40dp"
+        android:textColor="@color/rojo"
+        android:background="@color/azul"
+        android:text="CONSULTAR"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

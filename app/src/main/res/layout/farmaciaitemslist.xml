@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    tools:context=".mainfarmacias"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nombrefarmacia"
+        android:text="NombreFarmacia"
+        android:textColor="@color/azul"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/ciudadfarmacia"
+        android:textColor="@color/verde"
+        android:text="CiudadFarmacia"
+        android:textSize="19sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/direccionfarmacia"
+        android:text="DirecciónFarmacia"
+        android:textColor="@color/rojo"
+        android:textSize="17sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/horariofarmacia"
+        android:text="HorarioFarmacia"
+        android:textColor="@color/plomo"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+</LinearLayout>

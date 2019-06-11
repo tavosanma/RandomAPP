@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+//Clase que contiene los iconos que llevará el navigationDrawer
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/consultpacient"
+            android:icon="@drawable/consultapaciente"
+            android:title="Consulta De Paciente" />
+        <item
+            android:id="@+id/consulthora"
+            android:icon="@drawable/consultahora"
+            android:title="Consulta De Horarios" />
+        <item
+            android:id="@+id/horariovisit"
+            android:icon="@drawable/horariovisita"
+            android:title="Horario De Visita" />
+        <item
+            android:id="@+id/farmacias"
+            android:icon="@drawable/farmacia"
+            android:title="Farmacias De Turno" />
+
+        <item
+            android:id="@+id/donasangre"
+            android:icon="@drawable/donasagre"
+            android:title="Donación De Sangre" />
+
+        <item
+            android:id="@+id/carteraservicios"
+            android:icon="@drawable/cartera"
+            android:title="Cartera De Servicios" />
+        <item
+            android:id="@+id/sldresp"
+            android:icon="@drawable/sldresponde"
+            android:title="Salud Responde" />
+        <item
+            android:id="@+id/mapaHospital"
+            android:icon="@drawable/mapahospital"
+            android:title="Mapa hospitales" />
+    </group>
+    <item android:title="Configuración">
+        <menu>
+            <item
+                android:id="@+id/cambiarsesion"
+                android:icon="@drawable/cambiarsesion"
+                android:title="Cambiar Modo Vista" />
+
+        </menu>
+    </item>
+
+</menu>
