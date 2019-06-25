@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "110016825448",
+    "firebase_url": "https://hospital-eb3f4.firebaseio.com",
+    "project_id": "hospital-eb3f4",
+    "storage_bucket": "hospital-eb3f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:110016825448:android:12fe101092d27af0",
+        "android_client_info": {
+          "package_name": "cl.ubiobio.hospitallinares"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "110016825448-k58jmv5a158cnqhtr8dekbd17bqmmccp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "cl.ubiobio.hospitallinares",
+            "certificate_hash": "abf9923f6a14157986bca26329f0ecff766d2ee1"
+          }
+        },
+        {
+          "client_id": "110016825448-5ok4tjr9s1arqtvdp1ibndaatmma8qu5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQYojmnTbPf0sl1nR9QwDbHHeeNv0r4qM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "110016825448-5ok4tjr9s1arqtvdp1ibndaatmma8qu5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

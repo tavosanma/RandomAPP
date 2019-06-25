@@ -92,6 +92,19 @@ public class menubkn extends AppCompatActivity
             Intent IntentLoadNewActivity = new Intent(getApplicationContext(), Menu.class);/*cambia el modo de visualización de dinámico a simple, invoca a la clase Menu*/
             startActivity(IntentLoadNewActivity);
         }
+        else if (id == R.id.addPaciente) {
+            Intent IntentLoadNewActivity = new Intent(getApplicationContext(), ingresarPaciente.class);/*cambia el modo de visualización de dinámico a simple, invoca a la clase Menu*/
+            startActivity(IntentLoadNewActivity);
+        }
+        else if (id == R.id.listPaciente) {
+            Intent IntentLoadNewActivity = new Intent(getApplicationContext(), listarPacientes.class);/*cambia el modo de visualización de dinámico a simple, invoca a la clase Menu*/
+            startActivity(IntentLoadNewActivity);
+        }
+
+
+
+
+
 
         if(fragmentoSeleccionado){
 

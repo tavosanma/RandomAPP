@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateAndDeletePaciente">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Nombre"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/nombreUPDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Rut"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/rutUPDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Folio"
+        android:inputType="number"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/folioUPDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Fecha Nacimiento"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/fechaUPDE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/actualizar"
+            android:text="actalizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/borrar"
+            android:text="borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/atras"
+            android:text="volver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

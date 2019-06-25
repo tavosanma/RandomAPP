@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".ingresarPaciente">
+    //barra scroll para desplazarse por la pantalla cuando hay mucha información
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="193dp"
+                android:src="@drawable/logo_minsal" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/azul"
+                    android:text="NOMBRE"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+
+                    android:textSize="20sp"
+                    android:textColorHint="@color/plomo"
+                    android:id="@+id/nombre"
+                    android:hint="Gustavo San Martín"
+                    android:layout_width="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/azul"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:drawableRight="@mipmap/nombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/azul"
+                    android:text="RUT"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+
+                    android:textSize="20sp"
+                    android:textColorHint="@color/plomo"
+                    android:id="@+id/rut"
+                    android:hint="12345678-9"
+                    android:layout_width="wrap_content"
+                    android:inputType="text"
+                    android:textColor="@color/azul"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:drawableRight="@mipmap/carta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/azul"
+                    android:text="FOLIO"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <EditText
+
+                    android:textSize="20sp"
+                    android:textColorHint="@color/plomo"
+                    android:id="@+id/folio"
+                    android:layout_width="wrap_content"
+                    android:inputType="number"
+                    android:hint="9876543210"
+                    android:textColor="@color/azul"
+                    android:layout_height="wrap_content" />
+                <TextView
+
+                    android:drawableRight="@mipmap/llave"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/buttonNacimiento"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/azul"
+                    android:text="Nacimiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+
+                    android:id="@+id/nacimiento"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="date"
+                    android:textColor="@color/azul"
+                    android:textColorHint="@color/plomo"
+                    android:textSize="20sp" />
+                <TextView
+
+                    android:drawableRight="@mipmap/agee"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" />
+
+
+
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/ingresar"
+                android:textSize="40dp"
+                android:textColor="@color/rojo"
+                android:background="@color/azul"
+                android:text="Ingresar"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+            <Button
+                android:layout_marginTop="20dp"
+                android:id="@+id/volver"
+                android:textSize="40dp"
+                android:textColor="@color/rojo"
+                android:background="@color/azul"
+                android:text="Volver"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
