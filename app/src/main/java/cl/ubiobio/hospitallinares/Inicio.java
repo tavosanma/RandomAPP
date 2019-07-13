@@ -19,7 +19,7 @@ public class Inicio extends AppCompatActivity {
     private SharedPreferences sharedPre;
     private SharedPreferences.Editor editorSP;
     private int NO_PREFERENCES = 0;/*sin preferencia de visualización*/
-    private int MODO_JOVEN=1;/*modo de visualización dinámico, nombre de la variable sujeta a cambio*/
+    private int Admin=1;/*modo de visualización dinámico, nombre de la variable sujeta a cambio*/
     private int MODO_VIEJO=2;/*modo de visualización simple, nombre de la variable sujeta a cambio*/
 
 
@@ -39,10 +39,10 @@ public class Inicio extends AppCompatActivity {
                 Intent iniciar;
                 if (sharedPre.getInt("MODO",NO_PREFERENCES)== NO_PREFERENCES){
                     AlertDialog.Builder alertBuilder= new AlertDialog.Builder(_this);/*genera la alerta que permite seleccionar modo de visualización*/
-                    alertBuilder.setMessage("Elija el modo").setTitle("Seleccionar tipo de Interfaz").setPositiveButton("MODO DINAMICO", new DialogInterface.OnClickListener() {
+                    alertBuilder.setMessage("Elija el modo").setTitle("Seleccionar tipo de Interfaz").setPositiveButton("MODO Administrador", new DialogInterface.OnClickListener() {
                         @Override
                         public void onClick(DialogInterface dialog, int which) {
-                            editorSP.putInt("MODO",MODO_JOVEN);
+                            editorSP.putInt("MODO",Admin);
                             editorSP.commit();
                             Intent iniciar= new Intent(_this, menubkn.class);
                             startActivity(iniciar);
@@ -65,7 +65,7 @@ public class Inicio extends AppCompatActivity {
                     /*en la alerta, el boton correspondiente a la opción "sí", invoca a la clase menubkn, correspondiente al modo dinámico*/
                     /*en la alerta, el boton correspondiente a la opción "no", invoca a la clase Menu, correspondiente al modo dinámico*/
 
-                    if (sharedPre.getInt("MODO",NO_PREFERENCES)==MODO_JOVEN){
+                    if (sharedPre.getInt("MODO",NO_PREFERENCES)==Admin){
                         iniciar=new Intent(_this,menubkn.class);
 
                     }else{

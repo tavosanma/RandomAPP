@@ -38,6 +38,14 @@
             android:id="@+id/mapaHospital"
             android:icon="@drawable/mapahospital"
             android:title="Mapa hospitales" />
+        <item
+            android:id="@+id/addPaciente"
+            android:icon="@drawable/googleg_standard_color_18"
+            android:title="Agregar Paciente" />
+        <item
+            android:id="@+id/listPaciente"
+            android:icon="@drawable/sapu"
+            android:title="Listar Pacientes" />
     </group>
     <item android:title="Configuración">
         <menu>
